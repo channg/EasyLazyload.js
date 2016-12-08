@@ -2,6 +2,7 @@
 <h4> 1.0.0</h4>
 <font>超级好用的js 图片延迟加载插件</font>
 <br>
+<br>
 <a href="https://channg.github.io/test/test.html">→不管怎么样先点进来看看效果（示例网页）</a>
 
 <font color="blue">使用方法</font>
