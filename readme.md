@@ -2,8 +2,7 @@
 <h4> 1.0.0</h4>
 <font>超级好用的js 图片延迟加载插件</font>
 <br>
-<br>
-<a href="https://channg.github.io/test/test.html">→不管怎么样先点进来看看效果（示例网页）</a>
+<a href="">→不管怎么样先点进来看看效果（示例网页）</a>
 
 <font color="blue">使用方法</font>
 *  引入 EasyLazyload.js
@@ -42,7 +41,12 @@
     });
 </script>
 ```
-<span style="color:gray">coverColor：</span>  <span style="color:black">图片即将显示时覆盖层的颜色</span><br><br><span style="color:gray">coverDiv：</span>  <span style="color:black">图片即将显示时覆盖层可显示的土自定义组件</span><br><br><span style="color:gray">offsetBottom：</span>  <span style="color:black">图片距离屏幕底部出现时间点的距离差值（注解：延迟加载图片会在图片顶部接触屏幕底部时出现，如果想要让图片顶部距离屏幕底部有一定距离时出现，请设置此值）</span><br><br><span style="color:gray">offsetTopm：</span>  <span style="color:black">图片距离屏幕底部出现时间点的距离差值（注解：同上，距离顶部）</span><br><br><span style="color:gray">onLoadBackEnd：</span>  <span style="color:black">图片已经完全出现时的回调函数，参数为（index，event）加载的图片下标，以及dom对象（dom对象为jquerydom或zeptodom对象）</span><br><br><span style="color:gray">onLoadBackStart：</span>  <span style="color:black">图片已经下载完成，即将开始显示时的回调函数（参数同上）</span><br><br>
+*  coverColor：图片即将显示时覆盖层的颜色
+*  coverDiv：图片即将显示时覆盖层可显示的土自定义组件
+*  offsetBottom：图片距离屏幕底部出现时间点的距离差值（注解：延迟加载图片会在图片顶部接触屏幕底部时出现，如果想要让图片顶部距离屏幕底部有一定距离时出现，请设置此值）
+*  offsetTopm：图片距离屏幕底部出现时间点的距离差值（注解：同上，距离顶部）
+*  onLoadBackEnd：图片已经完全出现时的回调函数，参数为（index，event）加载的图片下标，以及dom对象（dom对象为jquerydom或zeptodom对象）
+*  onLoadBackStart：图片已经下载完成，即将开始显示时的回调函数（参数同上）
 
 <h5>EasyLazyload.js 优点</h5>
 
