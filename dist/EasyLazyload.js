@@ -15,7 +15,6 @@
 
     //所有待load src
     var srcList = []
-
     var lazyLoadCoutn = 0;
     var windowHeight = $(window).height();
     var windowWidth = $(window).width();
@@ -25,7 +24,6 @@
     //获取img
     function getImgNaturalDimensions(src, callback,lazyLoadCoutn) {
         var nWidth, nHeight
-
         var image = new Image()
         image.src = src;
         image.onload = function() {
@@ -113,8 +111,13 @@
             range()
         }
     }
+    function tryAgain(){
+        range()
+    }
 
     window.lazyLoadInit = init;
+
+    window.lazyLoadAgain = tryAgain;
 
 
 })($)

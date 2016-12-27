@@ -1,5 +1,5 @@
 <h5>EasyLazyload.js</h5>
-<h4> 1.0.0</h4>
+<h4> 1.0.1</h4>
 <font>超级好用的js 图片延迟加载插件</font>
 <br>
 <a href="https://channg.github.io/test/test.html">→不管怎么样先点进来看看效果（示例网页）</a>
@@ -48,6 +48,12 @@
 *  onLoadBackEnd：图片已经完全出现时的回调函数，参数为（index，event）加载的图片下标，以及dom对象（dom对象为jquerydom或zeptodom对象）
 *  onLoadBackStart：图片已经下载完成，即将开始显示时的回调函数（参数同上）
 
+<h5>注意</h5>
+
+*  如果使用类似swiper等屏蔽 onscroll事件的框架,请主动调用 lazyLoadAgain() 方法通知需要加载图片
+
+*  延迟加载的蒙层会在手机端滑动的时候出现不可控的布局异常,可以将 showTime 设置为1 快速显示元素.
+
 <h5>EasyLazyload.js 优点</h5>
 
 * EasyLazyload.js 是真延迟加载  而且不会对样式有任何影响。
@@ -55,3 +61,4 @@
 * 队列式加载，不会影响页面效率。
 
 * 不需要设置任何宽高，简单易用
+
