@@ -98,6 +98,7 @@
     }
 
     function init(setting){
+        lazyImgList = $("img[data-lazy-src]");
         defaults = $.extend(defaults,setting);
 
         lazyImgList.each(function(){
