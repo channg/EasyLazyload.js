@@ -1,6 +1,6 @@
 {
-  "name": "ball",
-  "version": "1.0.0",
+  "name": "easylazyload",
+  "version": "1.0.3",
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
