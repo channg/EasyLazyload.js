@@ -24,6 +24,7 @@
 <br>
 <font color="blue">参数列表</font>
 *  示例代码
+
 ```
 <script>
     lazyLoadInit({
@@ -40,7 +41,6 @@
         }
     });
 </script>
-
 ```
 *  coverColor：图片即将显示时覆盖层的颜色
 *  coverDiv：图片即将显示时覆盖层可显示的土自定义组件
@@ -48,7 +48,7 @@
 *  offsetTopm：图片距离屏幕底部出现时间点的距离差值（注解：同上，距离顶部，反向滚动时）
 *  onLoadBackEnd：图片已经完全出现时的回调函数，参数为（index，event）加载的图片下标，以及dom对象（dom对象为jquerydom或zeptodom对象）
 *  onLoadBackStart：图片已经下载完成，即将开始显示时的回调函数（参数同上）
-```
+
 <h5>注意</h5>
 
 *  如果使用类似swiper等屏蔽 onscroll事件的框架,请主动调用 lazyLoadAgain() 方法通知需要加载图片
