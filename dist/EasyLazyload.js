@@ -113,7 +113,8 @@
         }
     }
     function tryAgain(){
-        range()
+      $("img[data-lazy-src]").removeAttr("data-comp")
+        init(defaults)
     }
 
     window.lazyLoadInit = init;

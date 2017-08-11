@@ -1,5 +1,5 @@
 <h5>EasyLazyload.js</h5>
-<h4> 1.0.1</h4>
+<h4> 1.0.2</h4>
 <font>超级好用的js 图片延迟加载插件</font>
 <br>
 <a href="https://channg.github.io/test/test.html">→不管怎么样先点进来看看效果（示例网页）</a>
@@ -52,6 +52,8 @@
 <h5>注意</h5>
 
 *  如果使用类似swiper等屏蔽 onscroll事件的框架,请主动调用 lazyLoadAgain() 方法通知需要加载图片
+
+*  ajax获取图片地址,后同样调用 lazyLoadAgain()  通知需要加载图片
 
 *  延迟加载的蒙层会在手机端滑动的时候出现不可控的布局异常,可以将 showTime 设置为1 快速显示元素.
 
